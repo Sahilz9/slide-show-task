@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .images {
+        height: 600px;
+        width: 800px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      #maincontainer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .button-container {
+        text-align: center;
+      }
+
+      .button-container button {
+        padding: 10px 20px;
+        cursor: pointer;
+        background-color: #ff0000;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        margin: 0 10px;
+      }
+
+      .button-container button:hover {
+        background-color: #610000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="maincontainer"></div>
+    <div class="button-container">
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
